@@ -1,0 +1,287 @@
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+
+.header-title {
+  font-size: 70px;
+}
+
+header {
+  background-color: #383838;
+  padding: 50px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.link-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list li {
+  margin-right: 18px;
+}
+
+.link-list li a {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.link-list li a:hover {
+  background-color: #000000;
+}
+
+.goku-image {
+  display: block;
+  max-height: 100px;
+  opacity: 1;
+  transition: transform 0.5s ease;
+}
+
+.goku-image:hover {
+  transform: scale(2);
+}
+
+.index_container {
+  background-image: url("/images/jui.png");
+  background-size: cover;
+  height: 900px;
+  opacity: 1;
+}
+.contact_container {
+  background-image: url("/images/karate.png");
+  background-size: cover;
+  height: 900px;
+  opacity: 1;
+}
+.martial-container {
+  background-image: url("/images/boxing.png");
+  background-size: cover;
+  height: 900px;
+  opacity: 1;
+}
+.classes_container {
+  background-image: url("/images/muay.png");
+  background-size: cover;
+  height: 900px;
+  opacity: 1;
+}
+.about_container {
+  background-image: url("/images/judo.jpg");
+  background-size: cover;
+  height: 900px;
+  opacity: 1;
+}
+.classes {
+  background-color: #ff3a3a;
+  width: fit-content;
+}
+.mytable {
+  color: aliceblue;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.real_container {
+  width: fit-content;
+  padding: 2em;
+  margin: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #ff0000;
+}
+.item {
+  background-color: #a02727;
+}
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  font-family: "Merriweather", sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: #a8a8a8;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+form input,
+form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+form input:focus {
+  box-shadow: 0 0px 2px rgba(231, 76, 60, 1) !important;
+}
+
+#input-submit {
+  color: white;
+  background: red;
+  cursor: pointer;
+}
+
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+
+form textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+.martial-arts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.martial-art {
+  width: 45%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ff4242;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.martial-art h2 {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.martial-art p {
+  color: #000000;
+  font-size: 16px;
+}
+.social-box-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ff4444;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  background-color: #030303;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-handle {
+  margin-left: 10px;
+}
+
+.social-handle span {
+  font-size: 18px;
+  color: #ffffff;
+}
+.promotion-section {
+  background-color: #ff4545;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.promotion-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.promotion-section h2 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.promotion-section p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 30px;
+}
