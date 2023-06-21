@@ -58,31 +58,31 @@ header {
 }
 
 .index_container {
-  background-image: url("/images/jui.png");
+  background-image: url("../images/jui.png");
   background-size: cover;
   height: 900px;
   opacity: 1;
 }
 .contact_container {
-  background-image: url("/images/karate.png");
+  background-image: url("../images/karate.png");
   background-size: cover;
   height: 900px;
   opacity: 1;
 }
 .martial-container {
-  background-image: url("/images/boxing.png");
+  background-image: url("../images/boxing.png");
   background-size: cover;
   height: 900px;
   opacity: 1;
 }
 .classes_container {
-  background-image: url("/images/muay.png");
+  background-image: url("../images/muay.png");
   background-size: cover;
   height: 900px;
   opacity: 1;
 }
 .about_container {
-  background-image: url("/images/judo.jpg");
+  background-image: url("../images/judo.jpg");
   background-size: cover;
   height: 900px;
   opacity: 1;
